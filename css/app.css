@@ -6,7 +6,7 @@
  * No Javascript display
  */
 
-.no-js {
+.no-js-message {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -14,7 +14,11 @@
     display: table;
 }
 
-.no-js__text {
+.js .no-js-message {
+    display: none;
+}
+
+.no-js-message__text {
     font-family: Arial, Helvetica, sans-serif;
     color: #555555;
     text-align: center;
