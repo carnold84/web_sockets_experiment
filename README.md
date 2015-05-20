@@ -1,2 +1,7 @@
-# single_page_app_template
-Single Page App Template
+# Single Page App Template
+Simple template for creating a single page app.
+
+* Uses requirejs to define and load modules.
+* Includes modernizr and jQuery by default.
+* Includes helper utilities Broadcast (Pub/sub), Events and Ajax (in progress).
+* Includes normalise (I Britainised it :) ) CSS reset.
