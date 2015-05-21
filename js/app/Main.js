@@ -4,10 +4,15 @@ define(['jquery', 'utilities/Events', 'utilities/Broadcast'],
 
     'use strict';
 
+    var elContent; // reference to main content
+
     function init () {
 
-        // hide no javascript display
-        $('.no-js').addClass('remove');
+        /*
+            Store a reference the main content div
+            This is where ecerything goes
+        */
+        elContent = $('#content');
     }
 
     return {

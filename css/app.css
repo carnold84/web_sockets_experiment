@@ -26,6 +26,15 @@
     display: table-cell;
 }
 
+#content {
+    width: 100%;
+    display: none;
+}
+
+.js #content {
+    display: block;
+}
+
 /*
  * Helper classes
  */
