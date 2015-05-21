@@ -1,8 +1,10 @@
-requirejs.config({
-    baseUrl: 'js/app', // base url is directory of the actual app
-    paths: {
-        utilities: '../utilities',
-        jquery: '../libs/jquery-2.1.4.min'
+requirejs.config ({
+
+    baseUrl : 'js/app', // base url is directory of the actual app
+    paths : {
+        
+        utilities : '../utilities',
+        jquery : '../libs/jquery-2.1.4.min'
     }
 });
 
